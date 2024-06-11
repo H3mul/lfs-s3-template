@@ -1,0 +1,6 @@
+[lfs "customtransfer.lfs-s3"]
+    path = lfs-s3
+[lfs]
+    standalonetransferagent = lfs-s3
+[alias]
+    sec = !export $(gpg --decrypt credentials.asc 2>/dev/null | xargs) && git
