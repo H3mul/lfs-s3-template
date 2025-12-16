@@ -1,0 +1,10 @@
+; Store your lfs dal credentials here!
+
+[lfs-dal]
+
+	scheme = s3
+	bucket = <your-bucket-name>
+    region = <region>
+    access-key-id = <your-access-key-id>
+    secret-access-key = <your-secret-access-key>
+    endpoint = <s3-endpoint>

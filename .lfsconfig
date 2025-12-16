@@ -1,3 +1,4 @@
 [lfs]
     ; Avoid pushing to github LFS accidentally
-    url = "lfs-s3-is-not-being-used-FORGOT-TO-SOURCE-GIT-CONFIG"
+    ; If LFS is set up correctly, it will use the lfs-dal transer agent, the url will be ignored
+    url = "lfs-dal-is-not-being-used-FORGOT-TO-SOURCE-GIT-CONFIG"
